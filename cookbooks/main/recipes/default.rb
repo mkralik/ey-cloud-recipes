@@ -97,6 +97,8 @@
 # additional configuration of this recipe is required
 #include_recipe "mysql_administrative_tools"
 
+include_recipe "delayed_job"
+
 #uncomment to include the Elasticsearch recipe
 #include_recipe "elasticsearch"
 
